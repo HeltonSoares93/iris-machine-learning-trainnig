@@ -1,0 +1,22 @@
+# Ambientes virtuais
+.venv/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Modelos treinados (não versionamos binários)
+models/*.joblib
+models/*.pkl
+
+# Arquivos de sistema (Mac/Windows)
+.DS_Store
+Thumbs.db
